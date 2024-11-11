@@ -11,7 +11,7 @@ interface CardData {
 const cardData: CardData[] = [
     {
         title: "Centralized Result Management",
-        paragraph: "All schools in Ekiti State can upload and manage student results efficiently.",
+        paragraph: "All schools in Osun State can upload and manage student results efficiently.",
         imgSrc: "/result-management.png", // Replace with your actual image path
     },
     {

@@ -9,7 +9,7 @@ interface CardData {
     cta1: string;
     cta2: string;
     link1: string;
-    link2: string; // This will now represent the path to the PDF file
+    link2: string; 
 }
 
 const cardData: CardData[] = [
@@ -41,10 +41,10 @@ const cardData: CardData[] = [
 
 const Benefits = () => {
     const handleDownload = (fileUrl: string) => {
-        fetch(fileUrl) // Fetch the file from the public folder or external source
-            .then((response) => response.blob()) // Get the file as a Blob
+        fetch(fileUrl) 
+            .then((response) => response.blob()) 
             .then((blob) => {
-                fileDownload(blob, fileUrl.split('/').pop() || 'download.pdf'); // Trigger download with file name
+                fileDownload(blob, fileUrl.split('/').pop() || 'download.pdf'); 
             })
             .catch((error) => console.error('Error downloading file:', error));
     };

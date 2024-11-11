@@ -34,7 +34,7 @@ const Home = () => {
             </Fade>
             <Fade direction="up" delay={800} cascade damping={0.1} triggerOnce>
               <p className="text-base sm:text-lg lg:text-xl text-grey font-normal mb-10 leading-relaxed">
-                Simplifying academic record-keeping for schools across Ekiti State.<span className="block">
+                Simplifying academic record-keeping for schools across Osun State.<span className="block">
                 Ensuring efficient communication between schools, students, and the government.</span>
               </p>
             </Fade>

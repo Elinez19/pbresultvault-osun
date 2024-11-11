@@ -35,10 +35,10 @@ const WhoWeAre = () => {
                 {/* Updated h3 and h5 text alignment */}
                 <div className="flex justify-between items-center mb-10">
                     <h3 className="text-4xl sm:text-5xl font-semibold text-black text-left w-1/2">
-                        About the Ekiti State Result Management System
+                        About the Osun State Result Management System
                     </h3>
                     <h5 className="text-black opacity-60 text-lg font-normal text-left w-1/2">
-                        The Ekiti State Result Management System is a centralized platform designed to streamline result compilation, grading, and distribution across secondary schools in Ekiti State. With this system, schools can manage academic records with ease, providing quick access to performance reports for students, parents, and government officials.
+                        The Osun State Result Management System is a centralized platform designed to streamline result compilation, grading, and distribution across secondary schools in Osun State. With this system, schools can manage academic records with ease, providing quick access to performance reports for students, parents, and government officials.
                     </h5>
                 </div>
 
